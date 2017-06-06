@@ -48,10 +48,10 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: Heron
+#disqus_username: Heron
 
 # Netease setttings
-#netease_comment: true
+netease_comment: true
 
 # Duoshuo settings
 #duoshuo_username: huxblog
