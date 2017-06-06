@@ -12,7 +12,7 @@ tags:
     - 翻译
     - 机器学习
 ---
-## 10. When to change dev/teset sets and metrics
+## 11. When to change dev/teset sets and metrics
 
 开始一个新项目时，我一般试着快速选出开发/测试集，因为这可以给团队一个明确的目标。
 
