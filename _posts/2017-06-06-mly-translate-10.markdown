@@ -2,7 +2,7 @@
 layout:    post
 title:    "Machine Learning Yearning 阅读笔记，动手写起来!"
 subtitle:    "chapter10"
-date:    2017-06-06
+date:    2017-06-06 21:15:00
 author:    "Heron"
 header-img:    "img/post-bg-mly.webp"
 header-mask:    0.3
@@ -20,7 +20,7 @@ tags:
 2. 编程实现这些想法。
 3. 用实验来告诉我这些想法work的怎么样。(通常我开始的一些想法是不work的！)基于这些知识，返回生成更多的想法，不断的迭代这个过程。
 
-![iteration](/img/inpost/mly-10-iteration.png)
+![iteration](/img/in-post/mly-10-iteration.png)
 
 这是一个迭代的过程。你循环的越快，你的进展就越快。这就是为什么开发/测试集和评价指标很重要：每次你尝试一个想法，在开发集上衡量你的想法的表现可以让你快速决定你的前进方向是不是正确。
 
