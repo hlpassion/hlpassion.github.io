@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      "使用Github-page写的第一篇博客"
-subtitle:   "写在6月6日凌晨"
-date:       2017-06-06 00:20:10
+subtitle:   "写在6月1日凌晨"
+date:       2017-06-01 00:20:10
 author:     "Heron"
 header-img: "img/post-bg-nextgen-web-pwa.jpg"
 header-mask: 0.3
