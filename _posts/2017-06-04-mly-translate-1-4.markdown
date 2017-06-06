@@ -1,6 +1,6 @@
 ---
 layout:    post
-title:    "Machine Learning Yearning 阅读笔记，动手写起来!"
+title:    "Machine Learning Yearning 翻译，动手写起来!"
 subtitle:    "chapter01-chapter04"
 date:    2017-06-04
 author:    "Heron"
