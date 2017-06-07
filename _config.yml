@@ -66,8 +66,8 @@ netease_comment: true
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
 
 
 
@@ -93,19 +93,10 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "乱序",
-        href: "http://mida.re/"
+        title: "Hux博客",
+        href: "http://huangxuan.me/"
     },{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
-    },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
+        title: "Jekyll",
+        href: "https://jekyllrb.com/"
     }
 ]
