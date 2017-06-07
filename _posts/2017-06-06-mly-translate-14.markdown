@@ -1,5 +1,5 @@
 ---
-layout:    keynote
+layout:    post
 title:    "Machine Learning Yearning 翻译，动手写起来!"
 subtitle:    "chapter14"
 date:    2017-06-07 11:00:00
