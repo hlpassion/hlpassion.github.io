@@ -2,7 +2,7 @@
 layout:    keynote
 title:    "Machine Learning Yearning 翻译，动手写起来!"
 subtitle:    "chapter14"
-date:    2017-06-07
+date:    2017-06-07 11:00:00
 author:    "Heron"
 header-img:    "img/post-bg-mly.webp"
 header-mask:    0.3

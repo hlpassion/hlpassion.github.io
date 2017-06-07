@@ -2,7 +2,7 @@
 layout:    post
 title:    "祝福高考的学子，金榜题名"
 subtitle:    "又是一年高考时"
-date:    2017-06-07
+date:    2017-06-07 19:00:00
 author:    "Heron"
 header-img:    "img/post-bg-2017-06-07.jpg"
 header-mask:    0.1
