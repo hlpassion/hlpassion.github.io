@@ -4,7 +4,7 @@ title:    "python Challenge 答案和解题思路"
 subtitle:    "心血来潮进行的，不知道能不能做下去"
 date:    2017-06-11
 author:    "Heron"
-header-img:    "img/post-bg-2017-06-07.jpg"
+header-img:    "img/post-bg-2017-06-11.jpg"
 header-mask:    0.1
 catalog:    true
 tags:
