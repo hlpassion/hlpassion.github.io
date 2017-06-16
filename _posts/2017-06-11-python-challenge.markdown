@@ -50,3 +50,23 @@ for i in mess_str:
 
 > 如果使用复制的话，用"""  """包括字符不会报错
 
+# 3. 字母左右被三个大写字母包围 
+
+刚开始没审清楚题，EXACTLY，就是说左右有且仅有三个大写字母包围，最先是用最笨的遍历方式加if判断。后来采用正则表达式来完成字符的匹配问题。
+
+```python
+from urllib import request
+import re
+
+url = 'http://www.pythonchallenge.com/pc/def/equality.html'
+text = request.urlopen(url)
+text = text.read().decode('utf-8')
+start = text.find('<!--') + len('<!--')
+mass_text = text[start:-len('<!--')]
+
+reg = re.compile('[a-z][A-Z]{3}([a-z])[A-Z]{3}[a-z]')
+print(''.join(reg.findall(mass_text)))
+```
+
+
+
