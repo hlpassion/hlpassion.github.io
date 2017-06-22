@@ -4,7 +4,7 @@ title:    "诺诺镑客借款用户分析"
 subtitle:    "百万用户分析"
 date:    2017-06-22
 author:    "Heron"
-header-img:    "img/post-bg-2017-06-16.jpg"
+header-img:    "img/post-bg-2017-06-22.jpg"
 header-mask:    0.1
 catalog:    true
 tags:
