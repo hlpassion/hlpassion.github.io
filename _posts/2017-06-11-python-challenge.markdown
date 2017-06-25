@@ -11,9 +11,9 @@ tags:
     - python
     - 游戏
 ---
-# 0. 计算2的38次方，结果替换网址就行了(274877906944)
+## 0. 计算2的38次方，结果替换网址就行了(274877906944)
 
-# 1. 字母映射问题(ocr)
+## 1. 字母映射问题(ocr)
 
 每个字母向后移两位，在最后Y、Z映射到A、B。将提示下的乱码句子转换以后就是答案。
 
@@ -27,7 +27,7 @@ orginal_str.translate(trans)
 ->"i hope you didnt translate it by hand. thats what computers are for. doing it in by hand is inefficient and that's why this text is so long. using string.maketrans() is recommended. now apply on the url."
 ```
 
-# 2.识别字符问题(equality)
+## 2.识别字符问题(equality)
 
 根据提示，字符在网页源代码中。
 
@@ -50,7 +50,7 @@ for i in mess_str:
 
 > 如果使用复制的话，用"""  """包括字符不会报错
 
-# 3. 字母左右被三个大写字母包围 
+## 3. 字母左右被三个大写字母包围 
 
 刚开始没审清楚题，EXACTLY，就是说左右有且仅有三个大写字母包围，最先是用最笨的遍历方式加if判断。后来采用正则表达式来完成字符的匹配问题。
 
