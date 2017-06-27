@@ -37,6 +37,10 @@ tags:
 
 不同学历借款总额，本科专科依然保持最高比例。
 
+![nono-edu-average-loan](/img/in-post/nono-edu-average-loan.png)
+
+但是从人均借款总额来看，博士人均借款最多，其次是中专及高中，然后是高中以下。
+
 ## 性别比例
 
 ![](/img/in-post/nono-gender.png)
