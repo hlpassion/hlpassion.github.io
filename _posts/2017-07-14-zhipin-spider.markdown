@@ -124,7 +124,7 @@ class ThudatazhipinItem(scrapy.Item):
 
    每一次请求地址返回都是招聘的列表页面，我们需要获取列表页面中的所有URL，通过进一步的解析方法获取每个页面的详细内容.
 
-   ![zhipin](/Users/heron/project/hlpassion.github.io/img/in-post/zhipin.png)
+   ![zhipin](/img/in-post/zhipin.png)
 
 ```python
 # 解析所有结果的列表页面，获取列表页面中每个招聘信息的详细地址，通过判断下一页按钮结束请求
@@ -146,7 +146,7 @@ def parse(self, response):
 
    以获取职位名称为例，使用[xpath](http://www.w3school.com.cn/xpath/)提取页面数据.
 
-   ![zhipin-detail](/Users/heron/project/hlpassion.github.io/img/in-post/zhipin-detail.png)
+   ![zhipin-detail](/img/in-post/zhipin-detail.png)
 
 ```python
 xpath('//div[@class="job-primary"]/div[@class="info-primary"]/div[@class="name"]/text()').extract()
