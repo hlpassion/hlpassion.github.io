@@ -33,8 +33,26 @@ pip install scrapy
 
 开始项目前先使用Scrapy命令生成新的Scrapy项目。
 
-```scrapy startproject THUDATAzhipin
+```
 scrapy startproject THUDATAzhipin
+```
+
+cd THUDATAzhipin 利用Scrapy命令生成spider模板.
+
+```
+├── __init__.py
+├── __pycache__
+│   ├── __init__.cpython-36.pyc
+│   └── settings.cpython-36.pyc
+├── items.py
+├── middlewares.py
+├── pipelines.py
+├── settings.py
+└── spiders
+    ├── __init__.py
+    ├── __pycache__
+    │   └── __init__.cpython-36.pyc
+    └── zhipin.py
 ```
 
 
