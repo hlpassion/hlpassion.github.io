@@ -212,10 +212,10 @@ xpath('//div[@class="job-primary"]/div[@class="info-primary"]/div[@class="name"]
    ```Python
    ROBOTSTXT_OBEY = False	# 是否遵循robots协议，默认是遵守，但是为了获取内容，设置成False
 
-   CONCURRENT_REQUESTS = 4	# 控制请求数量
-   DOWNLOAD_DELAY = 3		# 控制下载延迟
+   CONCURRENT_REQUESTS = 4	# 控制请求数量，Scrapy Downloader并发请求的最大值
+   DOWNLOAD_DELAY = 3		# 控制下载延迟,默认情况，Scrapy在两个请求之间不等待一个固定的值，						 # 而是使用0.5到1.5之间的一个随机值
    # 通过修改以上两个变量可以控制我们爬虫的速度，防止被反爬措施封杀掉。
-   USER_AGENT = []		# 设置以后可以为每次请求自动加上一个设置的USER_AGENT,也就是就常见的伪					 # 装技术
+   USER_AGENT = []		# 设置以后可以为每次请求自动加上一个设置的USER_AGENT,也就是就常见的伪					 # 装技术，可以通过从USER_AGENT列表中，随机取值来模拟每次请求来自不同					 # 的USER_AGENT
    ```
 
    ​
