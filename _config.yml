@@ -98,5 +98,8 @@ friends: [
     },{
         title: "Jekyll",
         href: "https://jekyllrb.com/"
+    },{
+        title: "v2ex",
+        href: "http://www.v2ex.com/?r=Heron"
     }
 ]
